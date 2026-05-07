@@ -108,15 +108,15 @@ This project focuses on designing and implementing a database system for managin
 
 The following steps will be followed during the development of the project:
 
-1.Requirement analysis of the meal management system
+1. Requirement analysis of the meal management system
 
-2.Database design using ER diagrams and normalization
+2. Database design using ER diagrams and normalization
 
-3.Database implementation
+3. Database implementation
 
-4.Testing and validation
+4. Testing and validation
 
-5.Documentation and reporting
+5. Documentation and reporting
 
 ## Tools and Technologies
 
@@ -127,5 +127,47 @@ The following steps will be followed during the development of the project:
 • Draw.io / Lucidchart — ER diagram design
 
 • GitHub — version control and collaboration
+
+
+# 1.8 System Requirements
+## 1.8.1 Functional Requirements
+
+#### The system shall:
+
+• Store and manage student information
+
+• Store and manage meal session information
+
+• Record meal transactions for students
+
+• Store menu information for each meal session
+
+• Track meal transaction timestamps
+
+• Record meal access status such as successful or duplicate attempts
+
+• Maintain meal transaction history
+
+• Allow retrieval of stored meal records
+
+• Generate reports related to meal usage and transaction history
+
+## 1.8.2 Non-Functional Requirements
+
+#### The system shall:
+
+• Ensure data accuracy and consistency
+
+• Provide efficient data storage and retrieval
+
+• Support scalability for increasing student records and transactions
+
+• Maintain system reliability and availability
+
+• Ensure data security and controlled access
+
+• Be maintainable and easy to update
+
+• Support efficient database performance
 
 
