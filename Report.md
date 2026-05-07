@@ -17,9 +17,13 @@ When these activities are handled manually or without a well-structured database
 In particular, the absence of a proper database system may limit the ability to:
 
 • Store and retrieve student meal records efficiently
+
 • Track meal transactions accurately
+
 • Manage meal sessions and menus in an organized manner
+
 • Prevent duplicate meal access attempts
+
 • Generate reports related to meal usage and transaction history
 
 Therefore, there is a need to design and implement a database system that supports efficient data storage, transaction management, and reporting for a university meal management service.
@@ -32,10 +36,17 @@ To design and implement a database system for a university meal management servi
 #1.4 Specific Objectives
 
 ✓ To analyze the requirements of a meal management system
+
 ✓ To design a relational database for managing meal service operations
+
 ✓ To store and manage student information
+
 ✓ To manage meal sessions such as breakfast, lunch, and dinner
+
 ✓ To record student meal transactions
+
 ✓ To manage daily food menu information
+
 ✓ To track meal access status and transaction history
+
 ✓ To generate reports related to meal transactions and meal usage patterns
