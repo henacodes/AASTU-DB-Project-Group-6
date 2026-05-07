@@ -50,3 +50,56 @@ To design and implement a database system for a university meal management servi
 ✓ To track meal access status and transaction history
 
 ✓ To generate reports related to meal transactions and meal usage patterns
+
+#1.5 Scope of the Project
+
+This project focuses on designing and implementing a database system for managing university meal services.
+
+##Included in the scope:
+
+• Student information management
+
+• Meal session management
+
+• Food menu management
+
+• Meal transaction recording
+
+• Meal access status tracking
+
+• Database implementation using MySQL
+
+• Report generation based on stored transaction data
+
+
+##Out of scope:
+
+• Online food ordering systems
+
+• Mobile or web application frontend development
+
+• Integration with external payment systems
+
+• Real-time biometric authentication systems
+
+# 1.6 Significance of the Project
+
+## For the University
+
+• Provides organized storage of meal-related data
+
+• Improves management of meal transactions and records
+
+• Supports report generation and operational monitoring
+
+• Reduces redundancy and improves data consistency
+
+## For Students
+
+• Supports accurate recording of meal access history
+
+• Reduces meal transaction errors
+
+• Improves organization of cafeteria services
+
+
