@@ -4,14 +4,30 @@
 
 | Name | ID |
 | :--- | :--- |
-| Elsabeth Alemneh | ETS04__/17 |
+| Elsabeth Alemneh |ETS0483/17 |
 | Elshaday Alem | ETS0488/17 |
 | Elroe Melaku | ETS0485/17 |
 | Elyas Demamu | ETS0489/17 |
 | Henok Ayenew | ETS0727/17 |
 | Kidus Girma | ETS0843/17 |
-## Description
-This system manages universtiy cafeteria meal transactions using MySQL and MongoDB.
+
+## Project Overview
+This project is a database management system designed for managing university meal services. The system helps store and manage student meal transactions, meal sessions, menu information, and related records in an organized manner.
+
+The project is developed as part of the Database Systems course at Addis Ababa Science and Technology University (AASTU).
+
+
+
+## Objectives
+The main objective of the project is to design and implement a database system that supports efficient management of university meal service operations.
+
+Specific objectives include:
+- Managing student information
+- Recording meal transactions
+- Managing meal sessions
+- Organizing menu information
+- Generating reports related to meal usage
+- Implementing both relational and non-relational database concepts
 
 ## tools Used 
 - MySQL
