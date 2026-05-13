@@ -41,3 +41,71 @@
       "Department": "Software Engineering"
     }
   ],
+ "meal_sessions": [
+    {
+      "_id": "SES001",
+      "Session_ID": "SES001",
+      "Session_Name": "Breakfast",
+      "Start_Time": "06:30",
+      "End_Time": "09:00"
+    },
+    {
+      "_id": "SES002",
+      "Session_ID": "SES002",
+      "Session_Name": "Lunch",
+      "Start_Time": "12:00",
+      "End_Time": "14:30"
+    },
+    {
+      "_id": "SES003",
+      "Session_ID": "SES003",
+      "Session_Name": "Dinner",
+      "Start_Time": "18:00",
+      "End_Time": "20:30"
+    }
+  ],
+
+  "menus": [
+    {
+      "_id": "MNU001",
+      "Menu_ID": "MNU001",
+      "Session_ID": "SES001",
+      "Menu_Date": "2025-06-01",
+      "Food_Items": ["Firfir", "Egg", "Tea", "Bread"]
+    },
+    {
+      "_id": "MNU002",
+      "Menu_ID": "MNU002",
+      "Session_ID": "SES002",
+      "Menu_Date": "2025-06-01",
+      "Food_Items": ["Shiro", "Injera", "Salad", "Water"]
+    },
+    {
+      "_id": "MNU003",
+      "Menu_ID": "MNU003",
+      "Session_ID": "SES003",
+      "Menu_Date": "2025-06-01",
+      "Food_Items": ["Tibs", "Injera", "Lentil Soup", "Juice"]
+    },
+    {
+      "_id": "MNU004",
+      "Menu_ID": "MNU004",
+      "Session_ID": "SES001",
+      "Menu_Date": "2025-06-02",
+      "Food_Items": ["Genfo", "Butter", "Tea", "Banana"]
+    },
+    {
+      "_id": "MNU005",
+      "Menu_ID": "MNU005",
+      "Session_ID": "SES002",
+      "Menu_Date": "2025-06-02",
+      "Food_Items": ["Misir Wot", "Injera", "Cabbage", "Water"]
+    },
+    {
+      "_id": "MNU006",
+      "Menu_ID": "MNU006",
+      "Session_ID": "SES003",
+      "Menu_Date": "2025-06-02",
+      "Food_Items": ["Kitfo", "Injera", "Ayib", "Tej"]
+    }
+  ],
