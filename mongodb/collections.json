@@ -1,12 +1,43 @@
-[
+{
+  "_readme": "University Student Meal Tracking System — MongoDB Sample Data",
+  "_university": "Addis Ababa Science and Technology University (AASTU)",
+  "_project": "Group Project: MongoDB Implementation",
+
+  "students": [
     {
-        "stuent_name":"Elyas demamu",
-        "session_name":"breakfast",
-        "status":"success"
+      "_id": "STU001",
+      "Student_ID": "STU001",
+      "Full_Name": "Abebe Girma",
+      "Department": "Software Engineering"
     },
     {
-        "stuent_name":"Elyas demamu",
-        "session_name":"lunch",
-        "status":"success"
+      "_id": "STU002",
+      "Student_ID": "STU002",
+      "Full_Name": "Tigist Haile",
+      "Department": "Computer Science"
+    },
+    {
+      "_id": "STU003",
+      "Student_ID": "STU003",
+      "Full_Name": "Yonas Tesfaye",
+      "Department": "Electrical Engineering"
+    },
+    {
+      "_id": "STU004",
+      "Student_ID": "STU004",
+      "Full_Name": "Hiwot Bekele",
+      "Department": "Civil Engineering"
+    },
+    {
+      "_id": "STU005",
+      "Student_ID": "STU005",
+      "Full_Name": "Dawit Alemu",
+      "Department": "Mechanical Engineering"
+    },
+    {
+      "_id": "STU006",
+      "Student_ID": "STU006",
+      "Full_Name": "Selam Tadesse",
+      "Department": "Software Engineering"
     }
-]
+  ],
