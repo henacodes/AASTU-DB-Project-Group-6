@@ -109,3 +109,114 @@
       "Food_Items": ["Kitfo", "Injera", "Ayib", "Tej"]
     }
   ],
+ "meal_transactions": [
+    {
+      "_id": "TRX001",
+      "Transaction_ID": "TRX001",
+      "Student_ID": "STU001",
+      "Session_ID": "SES001",
+      "Transaction_Date": "2025-06-01",
+      "Scan_Timestamp": "2025-06-01T07:15:00Z",
+      "Status": "Success"
+    },
+    {
+      "_id": "TRX002",
+      "Transaction_ID": "TRX002",
+      "Student_ID": "STU002",
+      "Session_ID": "SES001",
+      "Transaction_Date": "2025-06-01",
+      "Scan_Timestamp": "2025-06-01T07:30:00Z",
+      "Status": "Success"
+    },
+    {
+      "_id": "TRX003",
+      "Transaction_ID": "TRX003",
+      "Student_ID": "STU001",
+      "Session_ID": "SES001",
+      "Transaction_Date": "2025-06-01",
+      "Scan_Timestamp": "2025-06-01T08:05:00Z",
+      "Status": "Duplicate Attempt"
+    },
+    {
+      "_id": "TRX004",
+      "Transaction_ID": "TRX004",
+      "Student_ID": "STU001",
+      "Session_ID": "SES002",
+      "Transaction_Date": "2025-06-01",
+      "Scan_Timestamp": "2025-06-01T12:10:00Z",
+      "Status": "Success"
+    },
+    {
+      "_id": "TRX005",
+      "Transaction_ID": "TRX005",
+      "Student_ID": "STU003",
+      "Session_ID": "SES002",
+      "Transaction_Date": "2025-06-01",
+      "Scan_Timestamp": "2025-06-01T12:45:00Z",
+      "Status": "Success"
+    },
+    {
+      "_id": "TRX006",
+      "Transaction_ID": "TRX006",
+      "Student_ID": "STU004",
+      "Session_ID": "SES002",
+      "Transaction_Date": "2025-06-01",
+      "Scan_Timestamp": "2025-06-01T13:00:00Z",
+      "Status": "Success"
+    },
+    {
+      "_id": "TRX007",
+      "Transaction_ID": "TRX007",
+      "Student_ID": "STU002",
+      "Session_ID": "SES003",
+      "Transaction_Date": "2025-06-01",
+      "Scan_Timestamp": "2025-06-01T18:20:00Z",
+      "Status": "Success"
+    },
+    {
+      "_id": "TRX008",
+      "Transaction_ID": "TRX008",
+      "Student_ID": "STU005",
+      "Session_ID": "SES003",
+      "Transaction_Date": "2025-06-01",
+      "Scan_Timestamp": "2025-06-01T18:55:00Z",
+      "Status": "Success"
+    },
+    {
+      "_id": "TRX009",
+      "Transaction_ID": "TRX009",
+      "Student_ID": "STU006",
+      "Session_ID": "SES001",
+      "Transaction_Date": "2025-06-02",
+      "Scan_Timestamp": "2025-06-02T07:00:00Z",
+      "Status": "Success"
+    },
+    {
+      "_id": "TRX010",
+      "Transaction_ID": "TRX010",
+      "Student_ID": "STU003",
+      "Session_ID": "SES001",
+      "Transaction_Date": "2025-06-02",
+      "Scan_Timestamp": "2025-06-02T07:20:00Z",
+      "Status": "Success"
+    },
+    {
+      "_id": "TRX011",
+      "Transaction_ID": "TRX011",
+      "Student_ID": "STU005",
+      "Session_ID": "SES002",
+      "Transaction_Date": "2025-06-02",
+      "Scan_Timestamp": "2025-06-02T12:30:00Z",
+      "Status": "Success"
+    },
+    {
+      "_id": "TRX012",
+      "Transaction_ID": "TRX012",
+      "Student_ID": "STU004",
+      "Session_ID": "SES002",
+      "Transaction_Date": "2025-06-02",
+      "Scan_Timestamp": "2025-06-02T12:55:00Z",
+      "Status": "Duplicate Attempt"
+    }
+  ]
+}
