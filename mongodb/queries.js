@@ -1,6 +1,6 @@
 // ============================================================
 // AASTU — University Student Meal Tracking System
-// MongoDB Implementation (Clean Academic Version)
+// MongoDB Implementation 
 // ============================================================
 
 // -------------------------------
