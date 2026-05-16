@@ -1,3 +1,34 @@
+INSERT INTO student (full_name, department) VALUES
+('Elroy Melaku', 'Software Engineering'),
+('Elshaday Alem', 'Software Engineering'),
+('Elisabeth Alemneh', 'Software Engineering'),
+('Elyas Demamu', 'Software Engineering'),
+('Henok Tadesse', 'Software Engineering'),
+('Kidus Bekele', 'Software Engineering'),
+('Sara Mohammed', 'Computer Science'),
+('Abel Tesfaye', 'Information Systems');
+
+INSERT INTO meal_session (session_name, start_time, end_time) VALUES
+('Breakfast', '07:00:00', '09:00:00'),
+('Lunch', '12:00:00', '14:00:00'),
+('Dinner', '18:00:00', '20:00:00');
+
+INSERT INTO menu (session_id, menu_date, food_items) VALUES
+(1, '2026-05-12', 'Bread, Egg, Tea'),
+(2, '2026-05-12', 'Rice, Shiro, Salad'),
+(3, '2026-05-12', 'Injera, Doro Wat'),
+(1, '2026-05-13', 'Porridge, Milk'),
+(2, '2026-05-13', 'Pasta, Tomato Sauce'),
+(3, '2026-05-13', 'Injera, Misir Wat');
+
+INSERT INTO meal_transaction (student_id, session_id, transaction_date, scan_timestamp, status) VALUES
+(1, 1, '2026-05-12', '2026-05-12 07:15:10', 'Success'),
+(2, 1, '2026-05-12', '2026-05-12 07:30:45', 'Success'),
+(3, 2, '2026-05-12', '2026-05-12 12:10:03', 'Success'),
+(4, 2, '2026-05-12', '2026-05-12 13:05:27', 'Success'),
+(5, 3, '2026-05-12', '2026-05-12 18:22:11', 'Success'),
+(1, 2, '2026-05-13', '2026-05-13 12:14:55', 'Success');
+
 SELECT
 	transaction_date,
 	COUNT(*) AS total_transactions
