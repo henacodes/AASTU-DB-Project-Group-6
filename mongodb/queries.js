@@ -1,38 +1,31 @@
-// ============================================================
-// AASTU — University Student Meal Tracking System
-// MongoDB Implementation 
-// ============================================================
 
-// -------------------------------
-// 0. SELECT DATABASE
-// -------------------------------
+
 use("meal_tracking_db");
 print("Database selected");
 
 
-// -------------------------------
+
 // 1. DROP OLD COLLECTIONS
-// -------------------------------
+
 db.students.drop();
 db.meal_sessions.drop();
 db.menus.drop();
 db.meal_transactions.drop();
 
 
-// -------------------------------
+
 // 2. CREATE COLLECTIONS
-// -------------------------------
+
 db.createCollection("students");
 db.createCollection("meal_sessions");
 db.createCollection("menus");
 db.createCollection("meal_transactions");
 
 
-// -------------------------------
-// 3. INSERT SAMPLE DATA
-// -------------------------------
 
-// --- students ---
+// 3. INSERT SAMPLE DATA
+
+
 db.students.insertMany([
   { Student_ID: "STU001", Full_Name: "Abebe Girma", Department: "Software Engineering" },
   { Student_ID: "STU002", Full_Name: "Tigist Haile", Department: "Computer Science" },
@@ -65,9 +58,9 @@ db.meal_transactions.insertMany([
 ]);
 
 
-// -------------------------------
+
 // 4. BUSINESS RULE INDEX
-// -------------------------------
+
 // Prevent a student from eating twice in the same session on the same day
 db.meal_transactions.createIndex(
   { Student_ID: 1, Session_ID: 1, Transaction_Date: 1 },
@@ -75,9 +68,9 @@ db.meal_transactions.createIndex(
 );
 
 
-// -------------------------------
+
 // 5. BASIC READ QUERIES
-// -------------------------------
+
 
 // All students
 print("All students");
@@ -96,9 +89,9 @@ print("Transactions for STU001");
 db.meal_transactions.find({ Student_ID: "STU001" }).forEach(printjson);
 
 
-// -------------------------------
+
 // 6. UPDATE QUERIES
-// -------------------------------
+
 
 // Update student department
 printjson(db.students.updateOne(
@@ -107,17 +100,14 @@ printjson(db.students.updateOne(
 ));
 
 
-// -------------------------------
+
 // 7. DELETE QUERIES
-// -------------------------------
 
 // Delete a duplicate attempt
 printjson(db.meal_transactions.deleteOne({ Transaction_ID: "TRX003" }));
 
 
-// -------------------------------
 // 8. AGGREGATION PIPELINES
-// -------------------------------
 
 // A. Count meals per session
 print("Count meals per session");
